@@ -1,0 +1,42 @@
+@@ -9,6 +9,7 @@
+ /* Begin PBXBuildFile section */
+ 		962C453B18350FFA00CD7A9B /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 962C453A18350FFA00CD7A9B /* main.c */; };
+ 		962C453D18350FFA00CD7A9B /* tim_beta.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 962C453C18350FFA00CD7A9B /* tim_beta.1 */; };
++		96CC1E551839C6D5000F561E /* funcoes.c in Sources */ = {isa = PBXBuildFile; fileRef = 96CC1E541839C6D5000F561E /* funcoes.c */; };
+ /* End PBXBuildFile section */
+ 
+ /* Begin PBXCopyFilesBuildPhase section */
+@@ -28,6 +29,8 @@
+ 		962C453718350FFA00CD7A9B /* tim beta */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "tim beta"; sourceTree = BUILT_PRODUCTS_DIR; };
+ 		962C453A18350FFA00CD7A9B /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+ 		962C453C18350FFA00CD7A9B /* tim_beta.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = tim_beta.1; sourceTree = "<group>"; };
++		96CC1E511839BE66000F561E /* tim_beta.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tim_beta.h; sourceTree = "<group>"; };
++		96CC1E541839C6D5000F561E /* funcoes.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = funcoes.c; sourceTree = SOURCE_ROOT; };
+ /* End PBXFileReference section */
+ 
+ /* Begin PBXFrameworksBuildPhase section */
+@@ -61,6 +64,8 @@
+ 			isa = PBXGroup;
+ 			children = (
+ 				962C453A18350FFA00CD7A9B /* main.c */,
++				96CC1E541839C6D5000F561E /* funcoes.c */,
++				96CC1E511839BE66000F561E /* tim_beta.h */,
+ 				962C453C18350FFA00CD7A9B /* tim_beta.1 */,
+ 			);
+ 			path = "tim beta";
+@@ -118,6 +123,7 @@
+ 			buildActionMask = 2147483647;
+ 			files = (
+ 				962C453B18350FFA00CD7A9B /* main.c in Sources */,
++				96CC1E551839C6D5000F561E /* funcoes.c in Sources */,
+ 			);
+ 			runOnlyForDeploymentPostprocessing = 0;
+ 		};
+@@ -225,6 +231,7 @@
+ 				962C454218350FFA00CD7A9B /* Release */,
+ 			);
+ 			defaultConfigurationIsVisible = 0;
++			defaultConfigurationName = Release;
+ 		};
+ /* End XCConfigurationList section */
+ 	};
